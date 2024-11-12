@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Your Company Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -25,10 +25,98 @@
     "name": "Dashboard",
     "url": "https://dashboard.mintlify.com"
   },
+  "navigation": [
+    {
+      "group": "Overview",
+      "pages": [
+        "introduction"
+      ]
+    },
+    {
+      "group": "Onboarding",
+      "pages": [
+        "onboarding/introduction",
+        "onboarding/quickstart",
+        "onboarding/development"
+      ]
+    },
+    {
+      "group": "Onboarding API",
+      "pages": [
+        "onboarding/api-reference/introduction",
+        "onboarding/api-reference/endpoint/get",
+        "onboarding/api-reference/endpoint/create",
+        "onboarding/api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "BackOffice",
+      "pages": [
+        "backoffice/introduction",
+        "backoffice/quickstart",
+        "backoffice/development"
+      ]
+    },
+    {
+      "group": "BackOffice API",
+      "pages": [
+        "backoffice/api-reference/introduction",
+        "backoffice/api-reference/endpoint/get",
+        "backoffice/api-reference/endpoint/create",
+        "backoffice/api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Kiosk",
+      "pages": [
+        "kiosk/introduction",
+        "kiosk/quickstart",
+        "kiosk/development"
+      ]
+    },
+    {
+      "group": "Kiosk API",
+      "pages": [
+        "kiosk/api-reference/introduction",
+        "kiosk/api-reference/endpoint/get",
+        "kiosk/api-reference/endpoint/create",
+        "kiosk/api-reference/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Kitchen Display System",
+      "pages": [
+        "kds/introduction",
+        "kds/quickstart",
+        "kds/development"
+      ]
+    },
+    {
+      "group": "Kitchen Display System API",
+      "pages": [
+        "kds/api-reference/introduction",
+        "kds/api-reference/endpoint/get",
+        "kds/api-reference/endpoint/create",
+        "kds/api-reference/endpoint/delete"
+      ]
+    }
+  ],
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "Onboarding API",
+      "url": "onboarding/api-reference"
+    },
+    {
+      "name": "BackOffice API",
+      "url": "backoffice/api-reference"
+    },
+    {
+      "name": "Kiosk API",
+      "url": "kiosk/api-reference"
+    },
+    {
+      "name": "KDS API",
+      "url": "kds/api-reference"
     }
   ],
   "anchors": [
@@ -46,41 +134,6 @@
       "name": "Blog",
       "icon": "newspaper",
       "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
     }
   ],
   "footerSocials": {
